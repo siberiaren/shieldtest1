@@ -1,7 +1,7 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_angra_LEFT
+if SHIELD_ANGRA_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "angra"
@@ -11,7 +11,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_angra_LEFT || SHIELD_angra_RIGHT
+if SHIELD_ANGRA_LEFT || SHIELD_ANGRA_RIGHT
 
 config ZMK_SPLIT
     default y
