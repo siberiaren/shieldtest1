@@ -1,0 +1,11 @@
+file_format: "1"
+id: angra
+name: Angra
+type: shield
+url: https://github.com/siberiaren/shieldtest1
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - angra_left
+  - angra_right
