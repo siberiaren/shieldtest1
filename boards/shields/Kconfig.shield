@@ -1,8 +1,8 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_A_DUX_LEFT
+config SHIELD_ANGRA_LEFT
     def_bool $(shields_list_contains,angra_left)
 
-config SHIELD_A_DUX_RIGHT
+config SHIELD_ANGRA_RIGHT
     def_bool $(shields_list_contains,angra_right)
